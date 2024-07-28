@@ -1,7 +1,6 @@
 {
   "name": "space-tourism-site",
   "private": true,
-  "homepage": "https://system-fresh.github.io/space-tourism-site/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
