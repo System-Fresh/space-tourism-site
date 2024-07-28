@@ -1,13 +1,15 @@
 {
   "name": "space-tourism-site",
   "private": true,
-    "homepage": "https://system-fresh.github.io/space-tourism-site",
+  "homepage": "https://system-fresh.github.io/space-tourism-site/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
