@@ -1,0 +1,156 @@
+html,
+body {
+  height: 100%;
+}
+
+body{
+    /* background-image: url(../../assets/destination/background-destination-desktop.jpg); */
+
+}
+
+
+ /* .dest-home{
+   background: url(../../assets/destination/background-destination-desktop.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%; 
+} */
+
+
+.d-home {
+ 
+  display: flex;
+  margin: 2rem 6rem;
+  height: 100%;
+}
+
+.d-home .left {
+  flex: 1;
+}
+
+.d-home .right {
+  flex: 1;
+}
+.d-home .left .write {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.8rem;
+  margin-bottom: 3.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-home .left .write span {
+  color: #9f9d9d;
+}
+.d-home .left .write h4 {
+  color: #d0cdcd;
+}
+.d-home .right {
+  margin-top: 6rem;
+  margin-left: 10rem;
+}
+.d-home ul {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.d-home .right h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 7.6rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.d-home .right p {
+  color: #d0cdcd;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.d-home .distance {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.distance .de-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.distance .de-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.distance .av {
+  color: #d0cdcd;
+  text-transform: uppercase;
+}
+.distance .av-num {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+
+@media (max-width: 1250px) {
+  .d-home .right{
+    margin-left: 1.5rem;
+  }
+}
+
+
+@media (max-width: 990px)  {
+    .d-home{
+      gap: 2rem;
+      flex-direction: column;
+    }
+
+    .d-home .right{
+      margin-top: 1rem;
+      margin-left: 1rem;
+    }
+
+    .d-home .d-img img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 100%; */
+    }
+    .d-home .right h1{
+      font-size: 5rem;
+      text-align: center;
+    }
+    .d-home ul{
+      justify-content: center;
+      
+    }
+
+  }
+
+  @media (max-width: 700px) {
+
+        .d-home .d-img img{
+        width: 100%;
+    }
+
+    .d-home .right h1{
+      font-size: 3rem;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .d-home{
+      margin: 1rem 3rem;
+    }
+    .d-home .left .write h4{
+      font-size: 1.2rem;
+    }
+  }
