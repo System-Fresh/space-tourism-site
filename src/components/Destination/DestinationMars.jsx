@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import mainBackground from "../../assets/destination/background-destination-desktop.jpg";
+import marsPng from "../../assets/destination/image-mars.png"
 
 import data from "../../data.json"
 import { NavLink, Link } from "react-router-dom";
@@ -28,7 +29,8 @@ const DestinationMars = () => {
             <h4>Pick your destination</h4>
           </div>
           <div className="d-img">
-            <img src={desiredMars.images.png} alt={desiredMars.name}  />
+            <img src={marsPng} alt={desiredMars.name}  />
+            {/* <img src={desiredMars.images.png} alt={desiredMars.name}  /> */}
           </div>
         </div>
         <div className="right">
