@@ -88,7 +88,8 @@ const Crew = () => {
 
         </div>
         <div className="right">
-          <img src={desiredCrew.images.png} alt={desiredCrew.name} />
+          <img src={crewPng4} alt={desiredCrew.name} />
+          {/* <img src={desiredCrew.images.png} alt={desiredCrew.name} /> */}
         </div>
       </div>
       
