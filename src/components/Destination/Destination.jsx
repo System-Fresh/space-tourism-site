@@ -1,5 +1,6 @@
 import "./destination.css";
 import mainBackground from "../../assets/destination/background-destination-desktop.jpg";
+import moonPng from "../../assets/destination/image-moon.png"
 import data from "../../data.json"
 import { Link, NavLink } from "react-router-dom";
 // import styles from "./styles.module.css";
@@ -35,7 +36,7 @@ const Destination = (props) => {
             <h4>Pick your destination </h4>
           </div>
           <div className="d-img">
-            <img src="https://nnamdi-foodapp.s3.eu-north-1.amazonaws.com/15coluvgkfk3.png" alt={desiredMoon.name} />
+            <img src={moonPng} alt={desiredMoon.name} />
             {/* <img src={desiredMoon.images.png} alt={desiredMoon.name} /> */}
           </div>
         </div>

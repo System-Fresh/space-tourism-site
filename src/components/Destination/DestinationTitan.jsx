@@ -1,6 +1,7 @@
 // import React from 'react'
 import { useEffect } from "react";
 import mainBackground from "../../assets/destination/background-destination-desktop.jpg";
+import titanPng from "../../assets/destination/image-titan.png";
 
 import data from "../../data.json"
 import { NavLink, Link } from "react-router-dom";
@@ -31,7 +32,8 @@ const DestinationTitan = () => {
             <h4>Pick your destination</h4>
           </div>
           <div className="d-img">
-            <img src={desiredTitan.images.png} alt={desiredTitan.name}  />
+            <img src={titanPng} alt={desiredTitan.name}  />
+            {/* <img src={desiredTitan.images.png} alt={desiredTitan.name}  /> */}
           </div>
         </div>
         <div className="right">
