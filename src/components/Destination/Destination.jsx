@@ -35,7 +35,8 @@ const Destination = (props) => {
             <h4>Pick your destination </h4>
           </div>
           <div className="d-img">
-            <img src={desiredMoon.images.png} alt={desiredMoon.name} />
+            <img src="https://nnamdi-foodapp.s3.eu-north-1.amazonaws.com/15coluvgkfk3.png" alt={desiredMoon.name} />
+            {/* <img src={desiredMoon.images.png} alt={desiredMoon.name} /> */}
           </div>
         </div>
         <div className="right">
