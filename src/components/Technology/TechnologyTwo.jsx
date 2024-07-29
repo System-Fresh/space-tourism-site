@@ -2,6 +2,7 @@ import "./technology.css";
 import data from "../../data.json"
 
 import techBackground from "../../assets/technology/background-technology-desktop.jpg"
+import techPng2 from "../../assets/technology/image-spaceport-portrait.jpg";
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
@@ -97,7 +98,8 @@ const Technology = () => {
               </div>
             </div>
             <div className="right">
-              <img src={desiredTech.images.portrait} alt={desiredTech.name} />
+              <img src={techPng2} alt={desiredTech.name} />
+              {/* <img src={desiredTech.images.portrait} alt={desiredTech.name} /> */}
             </div>
 
           </div>

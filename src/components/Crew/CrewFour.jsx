@@ -1,5 +1,6 @@
 import "./crew.css";
 import crewBackground from "../../assets/crew/background-crew-desktop.jpg";
+import crewPng4 from "../../assets/crew/image-anousheh-ansari.png";
 
 import data from "../../data.json"
 import { useEffect } from "react";

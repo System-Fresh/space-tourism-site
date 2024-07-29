@@ -1,5 +1,6 @@
 import "./crew.css";
 import crewBackground from "../../assets/crew/background-crew-desktop.jpg";
+import crewPng2 from "../../assets/crew/image-mark-shuttleworth.png";
 
 import data from "../../data.json"
 import { useEffect } from "react";
@@ -87,7 +88,8 @@ const Crew = () => {
 
         </div>
         <div className="right">
-          <img src={desiredCrew.images.png} alt={desiredCrew.name} />
+          <img src={crewPng2} alt={desiredCrew.name} />
+          {/* <img src={desiredCrew.images.png} alt={desiredCrew.name} /> */}
         </div>
       </div>
       
